@@ -87,7 +87,7 @@ const productionConfig = merge([
     },
     plugins: [
       new CleanPlugin({
-        cleanOnceBeforeBuildPatterns: ['js/main.bundle.js', 'html/*.html', 'manifest.json']
+        cleanOnceBeforeBuildPatterns: ['js/main.bundle.js', '*.html']
       })
     ]
   },

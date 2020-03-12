@@ -1,7 +1,7 @@
 const pagesOptions = [{
-  title: 'Main',
-  path: 'main',
-  pathToFile: 'main.pug'
+  title: 'Index',
+  path: 'index',
+  pathToFile: 'index.pug'
 }];
 
 module.exports = pagesOptions;

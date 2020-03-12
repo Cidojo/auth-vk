@@ -25,7 +25,7 @@ exports.devServer = ({ host, port } = {}) => ({
     historyApiFallback: {
       rewrites: [{
         from: /^\/$/,
-        to: `/main.html`
+        to: `/index.html`
       }, ...apiFallbackOptions(pages)]
     },
     host, // Defaults to `localhost`
