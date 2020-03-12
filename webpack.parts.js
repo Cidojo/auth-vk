@@ -47,7 +47,7 @@ exports.loadPug = (options) => ({
             loader: 'html-loader',
             options: {
               interpolate: true,
-              attrs: ['srcset']
+              attrs: ['img:src']
             }
           },
           {
