@@ -22,7 +22,7 @@ const pugOptions = {
 
 const paths = getPaths({
   sourceDir: 'src',
-  buildDir: 'public',
+  buildDir: 'dist',
   images: 'assets/img',
   js: 'js',
   fonts: 'assets/fonts',
