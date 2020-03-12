@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>VK APP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+  <link href="styles/style.css" rel="stylesheet"></head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <div class="header__inner"><img class="header__logo" src="../../assets/img/logo.svg" alt="logo"></div>
+      </header>
+      <article class="app">
+        <h1 class="app__title">Evaluation test - VK-API</h1>
+        <div class="app__inner">
+          <section class="app__frame">
+            <header class="app__login">
+              <h3>Войти с помощью Вконтакте</h3><a class="button-link" id="login" href="#">VK</a>
+            </header>
+            <section class="app__view user-block">
+              <header class="user-block__header">
+                <div class="user-block__img"><img src=""><a class="button-link" id="logout" href="#">Выйти</a></div>
+                <div class="user-block__info">
+                  <h3></h3>
+                  <p>Количество друзей: <span class="user-block__friends-count">0</span></p>
+                </div>
+              </header>
+              <div class="user-block__friends">
+                <div class="user-block__search">
+                  <input type="text" id="friends-search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Поиск друзей">
+                </div>
+                <ul class="user-block__friends-list"></ul>
+              </div>
+            </section>
+          </section>
+        </div>
+      </article>
+      <footer class="footer">
+        <p>By Maksim Romanov</p>
+      </footer>
+    </main>
+  <script type="text/javascript" src="js/main.bundle.js"></script></body>
+</html>

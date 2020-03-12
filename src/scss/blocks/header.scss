@@ -1,0 +1,22 @@
+.header {
+  background-color: #2a2e32;
+}
+
+.header__inner {
+  @extend %container;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+
+  > a {
+    display: flex;
+  }
+}
+
+.header__logo {
+  width: 166px;
+  height: 17px;
+}

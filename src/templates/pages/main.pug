@@ -1,0 +1,28 @@
+extends ../layouts/common
+
+block content
+  main.page
+    header.header
+      .header__inner
+        img.header__logo(src='../../assets/img/logo.svg' alt='logo')
+    article.app
+      h1.app__title Evaluation test - VK-API
+      .app__inner
+        section.app__frame
+          header.app__login
+            h3 Войти с помощью Вконтакте
+            a#login.button-link(href='#') VK
+          section.app__view.user-block
+              header.user-block__header
+                .user-block__img
+                  img(src="")
+                  a#logout.button-link(href="#") Выйти
+                .user-block__info
+                  h3
+                  p Количество друзей: #[span.user-block__friends-count 0]
+              .user-block__friends
+                .user-block__search
+                  input(type="text" id="friends-search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Поиск друзей")
+                ul.user-block__friends-list
+    footer.footer
+      p By Maksim Romanov

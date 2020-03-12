@@ -1,0 +1,14 @@
+.button-link {
+  display: inline-block;
+  min-width: 160px;
+  background: $color-primary-green;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: $color-brighter-green;
+  }
+}

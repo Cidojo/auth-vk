@@ -1,23 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+._.DS_Store
+.idea
+.vscode
+node_modules
+manifest
+*.cache.json
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+**/readme.html
+**/wp-config-sample.php
+public/.htaccess
+public/license.txt
+public/sitemap.xml
+public/sitemap.xml.gz
+
+public/wp-content/themes/innodrive/styles/style.dev.css
+public/wp-content/themes/innodrive/js/main.bundle.dev.js
+public/wp-content/themes/innodrive/js/sprite.bundle.dev.js
+public/wp-content/themes/innodrive/js/sprite.bundle.js
+public/wp-content/themes/innodrive/*.html
+public/wp-content/themes/innodrive/html
+public/wp-content/themes/innodrive/cahce
+
+public/wp-content/uploads
+
+yarn.lock
+
+/vendor/
+
+composer.lock
+dump.sql
+/public/armaxon/
+/public/armaxon2/
+
+/express

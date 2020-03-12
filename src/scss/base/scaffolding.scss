@@ -1,0 +1,42 @@
+$body-font-family: 'Ubuntu', helvetica, sans-serif;
+$body-font-size: 16px;
+$body-line-height: 24px;
+$color-vk-box: #edeef0;
+$color-vk-link: #2a5885;
+$color-primary-green: #3e8856;
+$color-brighter-green: #4fae33;
+
+%reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+%container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 55px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
+}
+
+%vk-box {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  font-family: $body-font-family;
+  -webkit-overflow-scrolling: touch;
+}
+
+* > * {
+  box-sizing: inherit;
+}
